@@ -1,0 +1,276 @@
+
+body{ margin:0;padding:0; 
+  background-image: url("assets/images/cloud4.png");
+  background-size: 100vw 100vh ;
+  background-repeat: no-repeat;
+}
+section {
+  display: grid;
+  grid-template-columns: auto 300px auto ;
+  grid-template-rows:auto 300px auto ;
+  height:750px;   
+}
+
+.wallhole {
+  grid-column: 2/3 ;
+  grid-row: 2/3 ;
+  display: flex;
+  justify-content: center ;
+  align-items: center ;
+  position: relative;
+}
+
+.watchbazzles {
+  width: 280px;
+  height: 280px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.watch {
+  width: 240px;
+  height: 240px;
+  background-color: rgba(21, 21, 21, 0.896);
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.71);
+  border: 20px solid rgba(18, 18, 18, 0.765);
+  border-radius: 50%;
+  z-index: 2;
+  position: relative;
+  transform: rotate(-90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* clock inner css  */
+@font-face {
+  font-family: lightening font;
+  src: url("assets/thunger font/Godofthunder-0WO1P.ttf");
+}
+
+.text {
+  font-family: lightening font;
+  font-size: 25px;
+  position: absolute;
+  transform: rotate(90deg);
+  font-weight: bolder;
+  color: rgb(209, 209, 209);
+}
+
+.text12 {
+  top: 100px;
+  right: 10px;
+  font-size: 30px;
+}
+
+.text1 {
+  bottom: 60px;
+  right: 30px;
+  transform: rotate(30deg);
+}
+
+.text2 {
+  bottom: 30px;
+  right: 65px;
+  transform: rotate(60deg);
+}
+
+.text3 {
+  bottom: 15px;
+  left: 115px;
+  font-size: 30px;
+
+}
+
+.text4 {
+  bottom: 25px;
+  left: 70px;
+  transform: rotate(120deg);
+}
+
+.text5 {
+  bottom: 60px;
+  left: 35px;
+  transform: rotate(150deg);
+}
+
+.text6 {
+  top: 105px;
+  left: 20px;
+  font-size: 30px;
+
+}
+
+.text7 {
+  top: 60px;
+  left: 30px;
+  transform: rotate(210deg);
+}
+
+.text8 {
+  top: 25px;
+  left: 70px;
+  transform: rotate(240deg);
+}
+
+.text9 {
+  top: 15px;
+  left: 115px;
+  font-size: 30px;
+
+}
+
+.text10 {
+  top: 25px;
+  right: 70px;
+  transform: rotate(300deg);
+}
+
+.text11 {
+  top: 60px;
+  right: 35px;
+  transform: rotate(330deg);
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: top left;
+  border-radius: 10px;
+}
+
+#hour {
+  height: 5px;
+  background-color: rgb(210, 147, 30);
+  width: 60px;
+}
+
+#minute {
+  height: 4px;
+  background-color: rgb(238, 164, 95);
+  width: 75px;
+}
+
+#second {
+  height: 1px;
+  background-color: rgba(216, 206, 68, 0.884);
+  width: 100px;
+}
+
+.center {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(216, 206, 68, 0.884);
+  box-shadow: 0 0 30px 10px rgb(225, 215, 84) ;
+  z-index: 2;
+}
+
+.svgelements{
+  width:300px;
+  height:300px;
+  position:absolute;
+}
+
+#lightening1,
+#lightening2,
+#lightening3,
+#lightening4,
+#lightening5,
+#lightening6,
+#lightening7 {
+  opacity: 0 ;
+  position: absolute;
+  fill: rgba(255, 221, 71, 0.911) ;
+  filter: drop-shadow( 0 0 10px rgba(255, 221, 71, 0.911)) drop-shadow( 0 0 20px rgba(253, 233, 145, 0.911)) drop-shadow( 0 0 50px rgba(238, 236, 229, 0.911)  );
+  -webkit-animation: flash ease-out 5s infinite;
+  -moz-animation: flash ease-out 5s infinite;
+  animation: flash ease-out 5s infinite; 
+}
+
+@keyframes flash {
+  from {
+    opacity: 0;
+  }
+
+  92% {
+    opacity: 0;
+  }
+
+  93% {
+    opacity: 0.6;
+  }
+
+  94% {
+    opacity: 0.2;
+  }
+
+  96% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+
+#lightening1 {
+  width: 350px;
+  height: 350px;
+  top: 90px;
+  left: 230px;
+  transform: rotate(10deg);
+}
+
+#lightening2 {
+  width: 200px;
+  height: 200px;
+  transform: rotate(-60deg);
+  top: -50px;
+  left: 240px;
+}
+
+#lightening3 {
+  width: 350px;
+  height: 350px;
+  transform: rotate(140deg);
+  top: 0px;
+  right: 270px;
+}
+
+#lightening4 {
+  width: 350px;
+  height: 350px;
+  transform: rotate(90deg);
+  top: 180px;
+  right: 150px;
+}
+
+#lightening5 {
+  width: 300px;
+  height: 300px;
+  transform: rotate(70deg);
+  bottom: -170px;
+  left: -30px;
+}
+
+#lightening6 {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+  bottom: 140px;
+  right: 200px;
+}
+
+#lightening7 {
+  width: 150px;
+  height: 150px;
+  transform: rotate(-180deg);
+  bottom: 70px;
+  right: 420px;
+}
