@@ -3,6 +3,7 @@ body{ margin:0;padding:0;
   background-image: url("assets/images/cloud4.png");
   background-size: 100vw 100vh ;
   background-repeat: no-repeat;
+  overflow: hidden ;
 }
 section {
   display: grid;
@@ -183,6 +184,7 @@ section {
 #lightening5,
 #lightening6,
 #lightening7 {
+  
   opacity: 0 ;
   position: absolute;
   fill: rgba(255, 221, 71, 0.911) ;

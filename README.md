@@ -8,13 +8,16 @@ Technologies Used
 HTML
 CSS
 JavaScript
+
 Features
 Digital watch display
 CSS animation for lightning effect
 Beautiful background design
 
-Preview!
-[project preview](https://github.com/Code-me-nik/Shock-wave-watch/blob/master/shock%20wave%20project.png)
+Preview
+file:///home/nilesh/Pictures/Screenshots/Screenshot%20from%202024-02-23%2018-13-21.png
+
+
 
 How to Use
 Clone the repository:

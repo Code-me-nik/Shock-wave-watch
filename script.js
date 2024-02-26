@@ -11,17 +11,3 @@ setInterval( function(){
     sec.style.transform = `rotate(${(time.getSeconds() / 60) * 360}deg)`;
   },1000);
 
-
-  let sprk = document.querySelectorAll(".sparks");
-  
-  setInterval(function () {
-    
-    let value = Math.round(Math.random()*1);
-
-    // console.log( value )
-
-    // sprk[ value ].style.opacity = 1 ;
-    // sprk[ value ].animate = 'flash ease-out 5s infinite'
-     
-  
-}, 1000)
