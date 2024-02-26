@@ -15,8 +15,7 @@ CSS animation for lightning effect
 Beautiful background design
 
 Preview
-file:///home/nilesh/Pictures/Screenshots/Screenshot%20from%202024-02-23%2018-13-21.png
-
+![shock wave project](https://github.com/Code-me-nik/Shock-wave-watch/assets/123573794/bc319c0e-b7cd-4502-ac14-c12ae73ec57d)
 
 
 How to Use
