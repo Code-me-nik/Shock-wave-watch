@@ -14,9 +14,8 @@ Shock Wave Watch is a stylish and interactive digital watch project created usin
 ## Live preview
 https://code-me-nik.github.io/Shock-wave-watch/
 
-## How to Use
-Clone the repository:
-git clone https://github.com/Code-me-nik/shock-wave-watch
+## Live link
+https://code-me-nik.github.io/Shock-wave-watch/
 
 ## Credits
 This project was created by More Nikhil.
