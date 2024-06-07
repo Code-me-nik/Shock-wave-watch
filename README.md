@@ -11,8 +11,8 @@ Shock Wave Watch is a stylish and interactive digital watch project created usin
 * CSS animation for lightning effect
 * Beautiful background design
 
-## Preview
-![shock wave project](<project image preview/shock wave project preview.jpg>)
+## Live preview
+https://code-me-nik.github.io/Shock-wave-watch/
 
 ## How to Use
 Clone the repository:
